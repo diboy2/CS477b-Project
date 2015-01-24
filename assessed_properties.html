@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<style>
+		body {
+			padding-top: 50px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9 col-md-offset-1">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title"> Appraisal Results </h3>
+					</div>
+					<div class="panel-body">
+						<h4 text-left >Approved Properties: </h4>
+						<table class="table table-bordered">
+							<tr>
+								<th> Property Names</th>
+								<th> Property Size </th>
+								<th> Num Bathrooms </th>
+								<th> Predicted General Sale Prices </th>
+								<th> Associated Cluster</th>
+							</tr>
+							<tr>
+								<td> Property 4</td>
+								<td> 34982 m^3 </td>
+								<td> 18 </td>
+								<td> $74392 </td>
+								<td> 41 </td>
+							</tr>
+							
+						</table>
+						<div class="pull-right">
+
+							<button class="btn btn-default" type="button"> 
+								Add Properties To Cluster
+							</button>
+							<button class="btn btn-default" type="button"> 
+								Run Regression
+							</button>
+						</div>
+						<br>
+
+						<h4 text-left >Denied Properties: </h4>
+						<table class="table table-bordered">
+							<tr>
+								<th> Property Names</th>
+								<th> Property Size </th>
+								<th> Num Bathrooms </th>
+								<th> Predicted General Sale Prices </th>
+								<th> Associated Cluster</th>
+							</tr>
+							<tr>
+								<td> Property 2</td>
+								<td> 3242352 m^3 </td>
+								<td> 31 </td>
+								<td> $32521 </td>
+								<td> 41 </td>
+							</tr>
+						</table>
+							<div class="pull-right">
+
+							<button class="btn btn-default" type="button"> 
+								Discard Properties
+							</button>
+							<button class="btn btn-default" type="button"> 
+								Run Regression
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

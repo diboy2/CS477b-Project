@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<style>
+  body {
+    padding-top: 50px;
+  }
+</style>
+<body>
+  <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li ><a href="../index.php">Manage Users</a></li>
+          <li ><a href="../pages/resume.php">Sign Out</a></li>
+        </ul>
+      </div><!-- /.nav-collapse -->
+    </div><!-- /.container -->
+  </div><!-- /.navbar -->
+
+
+  <div class="container">
+    <br>
+    <button type="button" class="btn btn-default">
+      Add Users
+    </button> 
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Bob
+            </a>
+
+            <button type="button" class="btn btn-default" style="float:right">
+             Modify
+            </button>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+          <dl class="list-group">
+            <li class="list-group-item"> <dt> Username</dt> <dd>Bob1234</dd></li>
+            <li class="list-group-item"><dt>Hash Value Of Password</dt><dd>426262</dd></li>
+            <li class="list-group-item"><dt>Permissions</dt> <dd>Assessor</dd></li>
+          </dl>
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+          <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
+              Joe
+            </a>
+
+            <button type="button" class="btn btn-default" style="float:right">
+             Modify
+            </button>
+          </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+          <dl class="list-group">
+            <li class="list-group-item"> <dt> Username</dt> <dd>Joe12345</dd></li>
+            <li class="list-group-item"><dt>Hash Value Of Password</dt><dd>234235235</dd></li>
+            <li class="list-group-item"><dt>Permissions</dt> <dd>Admin</dd></li>
+          </dl>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    
+
+
+</body>
+<script src="js/jquery-2.1.3.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</html>
+
