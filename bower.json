@@ -1,0 +1,13 @@
+{
+  "name": "public_html",
+  "version": "0.0.0",
+  "homepage": "https://github.com/sh0rtfuse/marketvaluepredictor",
+  "authors": [
+    "Adrian <cagaanan@usc.edu>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "eonasdan-bootstrap-datetimepicker": "~4.0.0",
+    "datatables": "~1.10.4"
+  }
+}
